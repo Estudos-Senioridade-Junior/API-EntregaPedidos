@@ -1,0 +1,1 @@
+insert into cliente (id, nome, email, telefone) values (1,'Patrick','alguem@alguem.com.br','(22) 39122139823');
