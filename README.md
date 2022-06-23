@@ -1,7 +1,7 @@
 # Gerenciamento de Pedidos
 
 ### Resumo
-API para realização de pedidos em restaurantes. Cada restaurante possui uma cozinha agregada com clientes e pedidos
+API para gerenciamento de entrega de pedidos. O cliente faz o pedido e acompanha a entrega com notificações via e-mail (Mock) e SMS (Mock)
 
 ## Tecnologias utilizadas
 * Java
@@ -13,10 +13,10 @@ API para realização de pedidos em restaurantes. Cada restaurante possui uma co
 
 
 ## Recursos disponíveis para acesso via API:
-* [**Cozinhas**]
-* [**Restaurantes**]
-* [**Clientes**]
-* [**Pedidos**]
+* [**Cliente**]
+* [**Ocorrência**]
+* [**Entrega**]
+
 
 
 ## Métodos
@@ -27,7 +27,6 @@ Requisições para a API devem seguir os padrões:
 | POST | Utilizado para criar um novo registro |
 | PUT | Atualiza dados de um registro ou altera sua situação |
 | DEL | Remove um registro do sistema |
-| PATCH | Utilizado para atualiação parcial de um registro |
 
 ## Respostas
 | Código | Descrição |
